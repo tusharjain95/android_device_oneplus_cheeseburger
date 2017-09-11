@@ -25,6 +25,8 @@ $(call inherit-product, device/oneplus/cheeseburger/device.mk)
 # Inherit some common LiquidRemix stuff.
 $(call inherit-product, vendor/liquid/config/common_full_phone.mk)
 
+PRODUCT_PROPERTY_OVERRIDES += ro.hardware.nfc_nci=nqx.default
+
 PRODUCT_NAME := liquid_cheeseburger
 PRODUCT_DEVICE := cheeseburger
 PRODUCT_MANUFACTURER := OnePlus
