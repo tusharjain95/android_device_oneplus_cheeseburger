@@ -347,10 +347,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.msm8998
 
-# Vehicle network (for slim_daemon)
-PRODUCT_PACKAGES += \
-    libvehiclenetwork-native
-
 # Shims
 PRODUCT_PACKAGES += \
     libshims_system_properties
