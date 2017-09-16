@@ -33,8 +33,8 @@ TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
 BOARD_VENDOR := oneplus
 
 # Assertions
-TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := cheeseburger
+#TARGET_BOARD_INFO_FILE ?= $(PLATFORM_PATH)/board-info.txt
+#TARGET_OTA_ASSERT_DEVICE := cheeseburger
 
 # we are too big to fit in
 PRODUCT_SKIP_FINGERPRINT_FROM_FILE := true
