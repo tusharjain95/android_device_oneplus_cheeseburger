@@ -153,8 +153,11 @@ PRODUCT_PACKAGES += \
     libbt-vendor
 
 # Camera
-# PRODUCT_PACKAGES += \
-    # Snap
+PRODUCT_PACKAGES += \
+    libcamera_shim \
+    libcamera_shim_display \
+    libcamera_shim_buffer \
+    libcamera_shim_native
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
