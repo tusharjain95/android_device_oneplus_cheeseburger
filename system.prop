@@ -136,6 +136,14 @@ persist.mm.enable.prefetch=true
 vidc.enc.dcvs.extra-buff-count=2
 persist.media.treble_omx=false
 
+# ims stuff
+
+persist.dbg.ims_volte_enable=1
+persist.dbg.volte_avail_ovr=1
+persist.dbg.vt_avail_ovr=0
+persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=0
+
 # NFC
 ro.nfc.port=I2C
 persist.nfc.smartcard.config=SIM1,eSE1
